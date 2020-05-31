@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, what would like to learn about today?",
+        "Hi there! What would you like to learn about today?",
+        "Hi there, what skill would you like to improve?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "Communicaton",
+      "patterns": [
+        "I want to learn about communication",
+        "I want to improve my communication",
+        "Do you have any communication products?",
+        "Do you have any products to improve my communication?",
+        "I want to improve my communication"
+      ],
+      "responses": [
+        "These products communication!",
+        "You might like one of these!",
+        "great scott thats great!"
+      ]
+    },
+    {
+      "tag": "leadership",
+      "patterns": [
+        "I want to learn about leadership",
+        "I want to improve my leadership",
+        "Do you have any leadership products?",
+        "Do you have any products to improve my leadership?",
+        "I want to improve my leadership"
+      ],
+      "responses": [
+        "We're open every day 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and AMEX",
+        "We accept most major credit cards"
+      ]
+    },
+    {
+      "tag": "opentoday",
+      "patterns": [
+        "Are you open today?",
+        "When do you open today?",
+        "What are your hours today?"
+      ],
+      "responses": [
+        "We're open every day from 9am-9pm",
+        "Our hours are 9am-9pm every day"
+      ]
+    }
+  ]
+}
